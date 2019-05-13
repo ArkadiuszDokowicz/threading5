@@ -6,13 +6,17 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Random;
+
 public class Main extends Application {
+    // A function to implement bubble sort
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/threading5.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("Bubble Sort Algorithm");
+        primaryStage.setScene(new Scene(root, 1200, 650));
         primaryStage.show();
     }
 
